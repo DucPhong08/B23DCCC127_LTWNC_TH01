@@ -40,15 +40,15 @@ const App: React.FC = () => {
             </div>
             <div className="stat-pill">
               <span>Chưa xong:</span>
-              <strong style={{ color: '#58a6ff' }}>{counts.active}</strong>
+              <strong style={{ color: '#2563eb' }}>{counts.active}</strong>
             </div>
             <div className="stat-pill">
               <span>Quá hạn:</span>
-              <strong style={{ color: '#f85149' }}>{counts.overdue}</strong>
+              <strong style={{ color: '#dc2626' }}>{counts.overdue}</strong>
             </div>
             <div className="stat-pill">
               <span>Hoàn thành:</span>
-              <strong style={{ color: '#3fb950' }}>{counts.completed}</strong>
+              <strong style={{ color: '#16a34a' }}>{counts.completed}</strong>
             </div>
           </div>
         </div>

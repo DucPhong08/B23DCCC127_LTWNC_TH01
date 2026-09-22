@@ -63,10 +63,7 @@ npm run build
 2. Nếu đặt chế độ **Private**, đã mời giảng viên qua username: `nvnhan`.
 3. Lệnh đẩy code lên GitHub:
 ```bash
-rtk git init
 rtk git add .
-rtk git commit -m "feat: complete student deadline tracker assignment"
-rtk git branch -M main
-rtk git remote add origin https://github.com/DucPhong08/B23DCCC127_LTWNC_TH01.git
+rtk git commit -m "feat(theme): switch to modern wide light theme and update docs"
 rtk git push -u origin main
 ```

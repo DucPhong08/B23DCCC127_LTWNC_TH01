@@ -36,9 +36,9 @@ export type DeadlineStatusUpdate = Pick<Deadline, 'id' | 'isCompleted'>;
 export type PriorityDisplayMap = Record<Priority, { label: string; color: string }>;
 
 export const PRIORITY_CONFIG: PriorityDisplayMap = {
-  low: { label: 'Thấp', color: '#10b981' },
-  medium: { label: 'Trung bình', color: '#f59e0b' },
-  high: { label: 'Khẩn cấp', color: '#ef4444' }
+  low: { label: 'Thấp', color: '#16a34a' },
+  medium: { label: 'Trung bình', color: '#d97706' },
+  high: { label: 'Khẩn cấp', color: '#dc2626' }
 };
 
 // 3. Type Guards
